@@ -1,0 +1,137 @@
+人
+自行车
+车
+摩托车
+飞机
+公共汽车
+火车
+卡车
+船
+红绿灯
+消防栓
+停止标志
+停车收费表
+长椅
+鸟
+猫
+狗
+马
+羊
+奶牛
+大象
+熊
+斑马
+长颈鹿
+背包
+雨伞
+手提包
+领带
+手提箱
+飞盘
+滑雪板
+滑雪板
+运动球
+风筝
+棒球棒
+棒球手套
+滑板
+冲浪板
+网球拍
+瓶子
+红酒杯
+杯子
+叉
+刀
+勺子
+碗
+香蕉
+苹果
+三明治
+橘子
+西兰花
+胡萝卜
+热狗
+比萨
+甜甜圈
+蛋糕
+椅子
+沙发
+盆栽
+床
+餐桌
+洗手间
+监视器
+笔记本电脑
+老鼠
+偏僻的
+键盘
+手机
+微波
+烤箱
+烤面包机
+下沉
+冰箱
+书
+钟
+花瓶
+剪刀
+泰迪熊
+吹风机
+牙刷
+---------------------------------------------------------------------------------------------------
+                           安装方法的一些讲解
+ ----------------------------------------------------------------------------
+ ( 2, cv2.CAP_DSHOW )  开启W7摄像头
+---------------------------------------------------------------------------------------------------
+1.安装开发环境 :
+
+2. OpenCV 和一些开发板的安装 下载直接
+在终端路径下直接输入
+
+pip install opencv-python
+pip install numpy
+pip install  MediaPipe
+
+---------------------------------------------------------------------------------------------------
+OpenCV版本查看  在命令行输入
+
+python
+import cv2
+cv2.__version__
+--------------------------------------------------------
+
+
+
+常见的命令
+Usage:
+pip [options]
+Commands:
+install 【 安装包安装 （Install packages.）】
+download 【 下载下载包 （Download packages.）】
+uninstall 【 卸载卸载包 （Uninstall packages.）】
+freeze 【 冻结按需求格式安装的包的输出 （Output installed packages in requirements format.）】
+list 【 列表列出已安装的包 （ List installed packages.）】
+show 【 显示已安装软件包的信息 （ Show information about installed packages.）】
+check 【 检查已安装的软件包是否具有兼容的依赖项 （ Verify installed packages have compatible dependencies.）】
+config 【 配置管理本地和全局配置 （ Manage local and global configuration.）】
+search 【 搜索PyPI查找包 （Search PyPI for packages.）】
+wheel 【 根据您的需求构建轮子 （Build wheels from your requirements.）】
+hash 【 包存档的哈希计算值 （ Compute hashes of package archives.）】
+completion 【 用于命令完成的辅助命令 （ A helper command used for command completion.）】
+debug 【 显示对调试有用的信息 （ Show information useful for debugging.）】
+help 【 帮助显示命令的帮助 （Show help for commands.）】
+
+---------------------------------
+OpenCV版本查看  在命令行输入
+
+python
+import cv2
+cv2.__version__
+
+---------------------------------
+终端需要安装打包安装
+pip install pyautogui opencv-python numpy
+ 安装成功验证  pip list
+
+
+
